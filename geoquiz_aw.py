@@ -19,7 +19,7 @@ for quizNum in range(35):
     quizFile = open('capitalsquiz%s.txt' % (quizNum + 1), 'w')
     answerKeyFile = open('capitalsquiz_answers%s.txt' % (quizNum + 1), 'w')
     with open('capitalsquiz%s.txt' % (quizNum + 1), 'w'):
-        with open('capitalsquiz%s.txt_answers' % (quizNum + 1), 'w'):
+        with open('capitalsquiz%s_answers.txt' % (quizNum + 1), 'w'):
             quizFile.write('Name:\n\nDate:\n\nPeriod\n\n')
             quizFile.write('\n\n')
             states = list(capitals.keys())
